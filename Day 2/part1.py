@@ -14,15 +14,15 @@ for i in range(len(lines)):
                 number = int(color[0] + color[1])
                 if color[2] == "r":
                     if number > 12:
-                        bad  = 1
+                        bad = 1
                         break
                 elif color[2] == "b":
                     if number > 14:
-                        bad  = 1
+                        bad = 1
                         break
                 elif color[2] == "g":
                     if number > 13:
-                        bad  = 1
+                        bad = 1
                         break
     if bad == 0:
         summ = summ + gamenum        
